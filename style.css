@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(193, 189, 189) ;
+    font-family:'Fira sans', sans-serif ;
+    height: 100vh; 
+}
+.sidebar nav{
+    padding:45px;
+
+}
+.sidebar nav li {
+    list-style: none;
+    font-size:30px;
+    padding :33px;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: white;
+    width:100vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color:white;
+    height:58vh;
+    width:80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.NishaInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 60px;
+    
+
+}
+    .name{
+        font-size:60px;
+        font-weight: bolder;
+
+    }
+    .about{
+        font-size: 30px;
+    } 
+    .More about{
+        font-size:25px;
+        font-family:'fira sans', sans-serif;
+        margin-top: 50vh;
+    }
+    .button{
+        margin-top: 34px;
+    }
+    .btn{
+        
+        padding:9px 14px;
+        border-radius:22px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 21px;
+        margin: 0 3px;
+        cursor: pointer;
+    }
+    .btn-sm{
+        font-size: 10px;
+        padding:7px 13px;
+        margin: 10px 0;
+    }
+    .btn:hover{
+        background-color:white;
+        color:dodgerblue;
+    }
+    .button button:hover{
+        background-color:white;
+        color:dodgerblue;
+    }
+    .NishaPic img{
+        height: 58vh;
+        justify-content: down;
+    }
+    .contactform{
+        padding:0 34px;
+        padding-top:144px;
+    }
+    .contactform h1{
+        padding:12px 0;
+    }
+    
+    .contactform form div{
+        padding:10px 0;
+        display: flex;
+        flex-direction:column;
+    }
+    .contactform form div input{
+        width:25vw;
+        border-radius:5px;
+        margin: 6px 0 0 0;
+        padding:3px;
+    }
+    #emailhelp{
+        font-size:11px;
+        color:midnightblue;
+        margin:0 5px;
+        padding:3px 0 0 0;
+    }
+    #form-check{
+        flex-direction:row;
+    }
+    #form-check input {
+        width:25px;
+     }
+.blogItem{
+    margin:20px;
+
+}
+.blogcontainer h1{
+    margin:23px;
+
+}
+.blogItem p{
+    font-family: 'source code pro', monospace;
+}
+.intro h2{
+font-family:'source code pro',sans-serif;
+margin:12px;
+}
+.intro p{
+    font-family:'source code pro',sans-serif;
+    margin:12px;
+}
+.Skillcontainer{
+    padding:12px;
+}
+.Skill{
+    width:265px;
+    height:6px;
+    background-color: red;
+    border:2px solid black;
+}
+.Skillitem{
+    display:flex;
+    align-items:center
+}
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width:125;
+    background-color: aqua;
+
+}
+.t5{
+    width:75px;
+    background-color: yellow;
+}
